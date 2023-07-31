@@ -1,1 +1,8 @@
 Backend: https://github.com/smezab09/api-ecommerce
+Sitio web: https://thevaultecommerce.netlify.app/
+
+Coach, intenté hacer todo bien y estuve batallando todo el fin de semana con este error que me daba en el despliegue del frontend: ( Failed to load resource: the server responded with a status of 401 ()
+AuthState.jsx:59 AxiosErrorcode: "ERR_BAD_REQUEST"config: {transitional: {…}, adapter: Array(2), transformRequest: Array(1), transformResponse: Array(1), timeout: 0, …}message: "Request failed with status code 401"name: "AxiosError"request: XMLHttpRequest {onreadystatechange: null, readyState: 4, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …}response: {data: {…}, status: 401, statusText: '', headers: AxiosHeaders, config: {…}, …}stack: "AxiosError: Request failed with status code 401\n    at settle (http://localhost:5174/node_modules/.vite/deps/axios.js?v=93f5b401:1189:12)\n    at XMLHttpRequest.onloadend (http://localhost:5174/node_modules/.vite/deps/axios.js?v=93f5b401:1417:7)"[[Prototype]]: Error
+api-ecommerce-wqsn.onrender.com/api/productos:1     Failed to load resource: the server responded with a status of 401 () ). En Postman si me resultaban todas las rutas, el renew, el login, el register, el products. Pero ya en el servidor en vivo, no.
+
+Al principio me mostraba los productos, pero cuando le daba clic en el ícono de agregar al carrito, me salía la alerta de un error en la petición. Intenté arreglar y encontrar los errores, pero al hacerlo, la app dejó de mostrarme los productos en la página. Me frustré por ello, y debido a esa razón, prefiero entregarlo a tiempo para tener su feedback y por lo menos asegurar la puntualidad, ya iré aplicando las correcciones impartidas por usted.
